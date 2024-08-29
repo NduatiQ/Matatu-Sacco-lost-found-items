@@ -1,0 +1,473 @@
+*{
+    font-family: Caslon Georgia, 'Times New Roman';
+    box-sizing: border-box;
+    
+
+}
+/* Add a margin between the icon and the text */
+/* Add a margin between the icon and the text */
+.logout-link i {
+    margin-right: 5px; /* Adjust as needed */
+}
+
+/* Style the logout link */
+.logout-link {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Change color as needed */
+    font-size: 20px; /* Adjust font size as needed */
+    /* Add other styles as needed */
+}
+
+.logout-link:hover{
+    color: darkblue;
+}
+/* Style for the logo container */
+.logo-container {
+    text-align: center; /* Center the image horizontally */
+    margin-top: -60px; /* Adjust margin as needed */
+    margin-left: 3s0px;
+    float: right;
+}
+
+/* Style for the logo image */
+.logo {
+    width: 230px; /* Set the width of the logo image */
+    height: 230px; /* Set the height of the logo image */
+    border-radius: 50%; /* Make the image circular */
+    float: right;
+    margin-top: 0px;
+    margin-right: -470px;
+}
+
+#logfld{
+    width: 500px;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#loglb{
+    font-weight: bold;
+    
+
+}
+
+.top{
+    background-color: darkblue;
+    margin-top: -7px;
+    height: 15px;
+    width: auto;
+    margin-left: -10px;
+}
+
+
+
+.outer{
+    background: url("https://imgs.search.brave.com/RAl7h3VH1_bkyZJ2Mns2ESmiPjoJ488tCQagZPzwX3A/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9t/YW4tc2VhcmNoaW5n/LXdpdGgtbWFnbmlm/eWluZy1nbGFzc18x/MDQ4LTI5MzEuanBn/P3NpemU9NjI2JmV4/dD1qcGc");
+    background-size: cover;
+    background-blend-mode: soft-light;
+    height:1000px;
+    position: fixed;
+    width:1000px;
+
+
+    
+}
+
+
+
+form{
+    font-size: 30px;
+    position:relative;
+    top:10px;
+    left:10px;
+    height: 900px;
+    margin-top: 110px;
+
+}
+
+#myform{
+    float: right;
+    margin-right: -650px;
+    
+}
+
+.logform{
+    margin-top: 170px;
+}
+
+
+
+.outer input[type=text]:focus, .outer input[type=password]:focus {
+  background-color: #cccccc;
+  outline: none;
+}
+
+
+fieldset{
+    background-color: #ccd9ff;
+    border: 3px solid #000066;
+    border-radius: 30px;
+    height: 600px;
+    width: 300px;
+    padding: 20px;
+    margin: 0 auto;
+    opacity:0.8;
+    position:relative;
+    right:10px;
+    top:120px;
+    margin-top: -270px;
+    }
+
+#username{
+    width: 500px;
+    height:60px;
+    padding-left: 50px;
+    opacity: 0.8;
+
+}
+
+#password{
+    width: 530px;
+    height:60px;
+    padding-left:100px;
+    opacity: 0.8;
+
+
+}
+
+.mybtns{
+    padding-left: 170px;
+    padding-top:30px;
+    cursor: pointer;
+
+
+}
+
+.forgot{
+    padding-left: 170px;
+    margin-top: 50px;
+   
+}
+
+.forgot:hover{
+    text-decoration: underline;
+}
+
+#signup{
+    background-color: #4d4dff;
+    width:100px;
+    height:50px;
+    border:2px red;
+    border-radius:  50px;
+    font-weight:700;
+    cursor: pointer;
+
+}
+#signup:hover {
+    background-color: skyblue;
+}
+
+
+#LogIn{
+    background-color: #4d4dff;
+    width:100px;
+    height:50px;
+    border:2px red;
+    border-radius:  50px;
+    font-weight:700;
+    cursor: pointer;
+}
+
+#LogIn:hover {
+    background-color: skyblue;
+}
+
+#change{
+    background-color: #4d4dff;
+    width:100px;
+    height:50px;
+    border:2px red;
+    border-radius:  50px;
+    font-weight:700;
+    cursor: pointer;
+
+}
+
+#change:hover {
+    background-color: skyblue;
+}
+
+.changebtn{
+    padding-left: 170px;
+    padding-top:30px;
+    cursor: pointer;
+}
+.back{
+    padding-left: 250px;
+    padding-top: 50px;
+    font-weight:700;
+    
+}
+
+#register{
+    height: 100px;
+    width: 600px;
+    position: sticky;
+    border: 3px dotted darkcyan;
+    border-radius: 10px;
+    background-color: lightcyan;
+    font-style: italic;
+    font-size: 65px;
+    cursor: pointer;
+}
+#contact{
+    float: right;
+    height: 100px;
+    width: 600px;
+    position:sticky;
+    border: 3px dotted darkblue;
+    border-radius: 10px;
+    background-color: lightblue;
+    font-style: italic;
+    font-size: 65px;
+    cursor: pointer;
+}
+
+.homepage{
+    background-color: ghostwhite;
+}
+
+..homepara {
+    font-size: 20px;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f5f5f5; /* Light gray background */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Update styles for paragraphs */
+.homepara p {
+    margin: 20px 0;
+    color: #333; /* Dark gray text color */
+    line-height: 1.5; /* Improved readability */
+}
+
+/* Update styles for slideshow container */
+.slideshowContainer {
+   margin-top: 20px;
+    text-align: center;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.slideshowContainer img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease; /* Smooth image hover effect */
+}
+
+.slideshowContainer img:hover {
+    transform: scale(1.05); /* Enlarge image on hover */
+}
+
+#homeform{
+    position: relative;
+    margin-top: 20px;
+    
+    animation: glitch 2s infinite;
+
+}
+
+@keyframes glitch {
+    0%{
+        text-replace: translate(0);
+    }
+    25%{
+        transform: translate(-5px, 5px);
+    }
+    50%{
+        transform: translate(-5px, 5px);
+    }
+    75%{
+        transform: translate(-5px, 5px);
+    }
+    100%{
+        transform: translate(0);
+    }
+}
+
+.mySlides{
+    display: none;
+}
+img{
+    vertical-align: middle;
+    
+}
+
+
+
+.dot{
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-attachment: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    opacity: 0.1;
+
+
+}
+
+.active{
+    background-color: #717171;
+
+}
+
+/* fading animation */
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+
+}
+
+@keyframes fade{
+    from {opacity: .4;}
+    to {opacity: 1;}
+}
+
+
+
+.form-popup {
+  display: none;
+  position: fixed;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Center both vertically and horizontally */
+  z-index: 9;
+  border: double;
+  border-color: purple;
+  border-radius: 20px;
+  max-height: 80%; /* Limit maximum height */
+  overflow-y: auto; /* Enable vertical scroll if content exceeds the height */
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.form-popup input[type=text]:focus, .form-container input[type=integer]:focus {
+  background-color: #e6e6e6;
+  outline: none;
+}
+
+
+#lb{
+    height: 30px;
+    width: 500px;
+    padding-right: 40px;
+    border-radius: 30px;
+    border-width: 3px;
+    border-color: darkblue;
+    float: right;
+
+
+}
+
+#nm{
+    color : black;
+    font-weight: bold;
+
+}
+
+#luggagesubmit{
+    height: 40px;
+    width: fit-content;
+    background-color: #db4dff;
+    border-top: 30px;
+    border-bottom: 30px;
+    border-left: 30px;
+    border-right: 30px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+    float: right;
+    cursor: pointer;
+    margin-left: 15px;
+
+
+}
+
+#luggagesubmit:hover {
+    background-color: darkblue;
+}
+
+.logimg{
+    width: 500px;
+    margin-top: -950px;
+    margin-left: 350px;
+
+}
+
+/* Style for the claim form */
+.claim-form body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.claim-form h2 {
+    text-align: center;
+    color: darkblue;
+}
+
+.claim-form form {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: skyblue;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.claim-form label {
+    font-weight: bold;
+
+}
+
+.claim-form input[type="text"],
+.claim-form textarea,
+.claim-form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: ghostwhite;
+
+}
+
+.claim-form textarea {
+    resize: vertical;
+}
+
+.claim-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.claim-form input[type="submit"]:hover {
+    background-color: black;
+}

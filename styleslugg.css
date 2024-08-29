@@ -1,0 +1,709 @@
+*{
+    font-family: Caslon Georgia, 'Times New Roman';
+    box-sizing: border-box;
+    background-position-x: 60px;
+
+}
+/* Add a margin between the icon and the text */
+.logout-link i {
+    margin-right: 5px; /* Adjust as needed */
+}
+
+/* Style the logout link */
+.logout-link {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Change color as needed */
+    font-size: 20px; /* Adjust font size as needed */
+    /* Add other styles as needed */
+}
+
+.logout-link:hover{
+    color: darkblue;
+}
+.adminpage {
+    padding-bottom: 100px; /* Adjust as needed to create space for the footer */
+    margin-bottom: 550px;
+}
+
+.report{
+    margin-left: 30px;
+    width: 1200px;
+    height: 470px;
+    border: 15px darkblue ;
+
+}
+
+.admreport{
+    margin-bottom: -470px;
+}
+
+.report-link {
+    display: inline-block; /* Ensures the link takes the shape of the image */
+}
+
+.report-link:hover{
+    opacity: 0.8; /* Adjust the opacity to your preference */
+    transition: opacity 0.3s ease; /* Add transition for smooth effect */
+    color: skyblue;
+    background-blend-mode: soft-light;
+}
+
+.agentpage {
+    padding-bottom: 650px; /* Adjust as needed to create space for the footer */
+    margin-bottom: -10px;
+    max-height: 600px; /* Set a maximum height for the form */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.agentdashboard{
+    height: 700px;
+    width: 310px;
+    background-color: skyblue;
+    display: block;
+    float: left;
+    margin-top: -95px;
+    z-index: 1;
+    position: absolute;
+
+}
+.agentdashboard button {
+    background-color: skyblue;
+    color: black;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+.agentdashboard button:hover {
+    background-color: darkblue;
+}
+
+.agentdashboard button i {
+    margin-right: 5px;
+}
+
+.all{
+background-color: whitesmoke;
+border: double;	
+border-color: purple;
+border-radius: 10px;
+height: 580px;
+width: fit-content;
+margin: auto;
+
+}
+.top{
+    background-color: darkblue;
+    margin-top: -7px;
+    height: 15px;
+    width: auto;
+    margin-left: -10px;
+    
+}
+
+h1{
+	text-align: center;
+	color: darkblue;
+	margin-left: 250px;
+}
+
+h2{
+	text-align: center;
+	color: darkblue;
+
+}
+
+#lostform{
+	
+	height: fit-content;
+	font-family: verdana;
+	font-size: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+#lb{
+	height: 30px;
+	width: 400px;
+	padding-right: 50px;
+	border-radius: 30px;
+	border-width: 3px;
+	border-color: darkblue;
+	float: right;
+
+
+}
+
+#itmdescription{
+	height: 40px;
+	width: 400px;
+	padding-right: 50px;
+	border-radius: 30px;
+	border-width: 3px;
+	border-color: darkblue;
+	float: rigth;
+}
+
+#idimg{
+	height: 20px;
+	width: 400px;
+	padding-right: 50px;
+	border-width: 3px;
+	border-color: darkblue;
+	float: right;
+}
+
+#nm{
+	color : black;
+	font-weight: bold;
+
+}
+
+#luggagesubmit{
+	height: 40px;
+	width: fit-content;
+	background-color: lightblue;
+	border-top: 30px;
+	border-bottom: 30px;
+	border-left: 30px;
+	border-right: 30px;
+	border-radius: 15px;
+	font-size: 20px;
+	font-weight: bolder;
+	float: right;
+	cursor: pointer;
+	margin-left: 10px;
+
+
+}
+
+#luggagesubmit:hover {
+	background-color: darkblue;
+}
+
+#luggagesubmit1{
+	height: 40px;
+	width: fit-content;
+	background-color: lightblue;
+	border-top: 30px;
+	border-bottom: 30px;
+	border-left: 30px;
+	border-right: 30px;
+	border-radius: 15px;
+	font-size: 20px;
+	font-weight: bolder;
+	float: right;
+	cursor: pointer;
+	margin-left: 10px;
+
+
+}
+
+#luggagesubmit1:hover {
+	background-color: darkblue;
+}
+
+
+
+#luggagesubmit2{
+	height: 40px;
+	width: fit-content;
+	background-color: lightblue;
+	border-top: 30px;
+	border-bottom: 30px;
+	border-left: 30px;
+	border-right: 30px;
+	border-radius: 15px;
+	font-size: 20px;
+	font-weight: bolder;
+	float: right;
+	cursor: pointer;
+	margin-left: 10px;
+
+
+}
+#luggagesubmit2:hover {
+	background-color: darkblue;
+}
+
+#luggagesubmit3{
+	height: 40px;
+	width: fit-content;
+	background-color: black;
+	border-top: 30px;
+	border-bottom: 30px;
+	border-left: 30px;
+	border-right: 30px;
+	border-radius: 15px;
+	font-size: 20px;
+	font-weight: bolder;
+	
+	cursor: pointer;
+	margin-left: 10px;
+
+
+}
+#luggagesubmit3:hover {
+	background-color: darkblue;
+}
+
+
+#foundform{
+	
+	height: fit-content;
+	font-family: verdana;
+	font-size: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+
+
+.dashboard {
+	height: 700px;
+	width: 310px;
+	background-color: skyblue;
+	display: block;
+	float: left;
+	margin-top: -75px;
+	z-index: 1;
+}
+
+.dashboard p1 {
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.dashboard button {
+    background-color: skyblue;
+    color: black;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+.dashboard button:hover {
+    background-color: darkblue;
+}
+
+.dashboard button i {
+    margin-right: 5px;
+}
+p1{
+	padding-left: 80px;
+	color: darkblue;
+
+}
+
+.adminbtn{
+	float: left;
+	margin-top: 15px;
+}
+
+#admbtn{
+    float: right;
+    height: 70px;
+    width: 600px;
+    position:relative;
+    border: 3px dotted darkblue;
+    border-radius: 30px;
+    background-color: lightblue;
+    font-style: italic;
+    font-size: 25px;
+    margin: 15px;
+    cursor: pointer;
+
+}
+
+
+#admbtn:hover {
+	background-color: deepskyblue;
+}
+
+#adminform{
+    position: relative;
+    
+    animation: glitch 3s infinite;
+
+}
+
+@keyframes glitch {
+    0%{
+        text-replace: translate(0);
+    }
+    25%{
+        transform: translate(-2px, 5px);
+    }
+    50%{
+        transform: translate(-2px, 5px);
+    }
+    75%{
+        transform: translate(-2px, 5px);
+    }
+    100%{
+        transform: translate(0);
+    }
+}
+
+#logout{
+	float: left;
+	margin-top: -60px;
+	cursor: pointer;
+}
+
+#logout2{
+	float: right;
+	margin-top: 0px;
+	cursor: pointer;
+}
+
+#agentform{
+	
+	height: fit-content;
+	font-family: verdana;
+	font-size: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: fit-content;
+
+}
+
+.custform{
+	
+	height: fit-content;
+	font-family: verdana;
+	
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: fit-content;
+
+}
+
+
+.form-popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  border: double;
+  border-color: purple;
+  border-radius: 20px;
+  height: 480px;
+  background-color: #f9f9f9;
+  width: fit-content;
+  margin-top: 50px;
+  margin-left: 600px;
+  padding-right: 10px;  
+}
+
+.form-popup input[type=text]:focus, .form-container input[type=integer]:focus .form-container input[type=password]:focus {
+  background-color: #e6e6e6;
+  outline: none;
+}
+
+.body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	min-height: 100vh;
+}
+
+.alb {
+			width: 200px;
+			height: 200px;
+			padding: 5px;
+		}
+.alb img {
+			width: 100%;
+			height: 100%;
+		}
+
+.popup {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #f9f9f9;
+        border: 2px solid #ccc;
+        padding: 20px;
+        z-index: 9999;
+    }
+    .popup h2 {
+        margin-top: 0;
+    }
+.popup2 {
+    display: none;
+    position: fixed;
+    overflow-y: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    padding: 20px;
+    z-index: 9999;
+}
+
+.popup2 h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.popup2 table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.popup2 th, .popup2 td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.popup2 th {
+    background-color: #f2f2f2;
+}
+
+.popup2 img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.deleteButton {
+    background-color: darkblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.deleteButton:hover {
+    background-color: #f44336; /* Darker shade of red on hover */
+}
+
+.form-container2 {
+    max-height: 400px; /* Set a maximum height for the form */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: -1050px;
+    height: 600px;
+    overflow-y: scroll;
+}
+
+.assignment {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.assignment-info{
+    text-align: center;
+}
+
+.center-content {
+    text-align: left;
+    display: inline-block;
+}
+
+.assignment:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.assignment-info p {
+    margin: 5px 0;
+}
+
+
+.assignment-infoimg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.lugg-photo-container,
+.id-photo-container {
+    flex-basis: 48%; /* Adjust the width of each container */
+    margin-bottom: 20px; /* Add space between the containers */
+    text-align: center; /* Center the label and image */
+}
+
+.lugg-photo-container label,
+.id-photo-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: darkblue;
+    margin-top: 10px;
+}
+
+.lugg-photo-container img,
+.id-photo-container img {
+    width: 100%; /* Ensure the images fill the container */
+    height: 200px; /* Set a fixed height for both images */
+    object-fit: cover; /* Ensure the images maintain aspect ratio and cover the container */
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.delete-form {
+    margin-top: 10px;
+}
+
+.collected-btn {
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.collected-btn:hover {
+    background-color: black;
+}
+
+/* CSS Styles for Luggage Images, Item Details, and Claim Button */
+.alb-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item-container {
+    background-color: skyblue;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center; /* Center the content horizontally */
+}
+
+.item-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center; /* Center the content vertically */
+}
+
+.luggage-image {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.item-details {
+    text-align: center;
+}
+
+.item-details h3 {
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.item-details p {
+    margin: 0;
+}
+
+.claim-btn {
+    background-color: darkblue;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.claim-btn:hover {
+    background-color: lightblue;
+}
+
+/* CSS Styles for Search Bar */
+.search-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-container form {
+    display: inline-block;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-container input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 5px;
+    width: 700px;
+    font-size: 14px;
+}
+
+.search-container button[type="submit"] {
+    padding: 8px 15px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.search-container button[type="submit"]:hover {
+    background-color: black;
+}
+

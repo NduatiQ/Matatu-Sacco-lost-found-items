@@ -1,0 +1,186 @@
+.top{
+    background-color: darkblue;
+    margin-top: -7px;
+    height: 15px;
+    width: auto;
+    margin-left: -10px;
+    
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #1E3A59; /* Dark blue background */
+    color: white; /* White text color */
+    padding: 40px 20px; /* Padding around content */
+}
+
+.footer .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.footer .footer-left h3,
+.footer .footer-center h3,
+.footer .footer-right h3 {
+    color: #4EB3D3; /* Sky blue heading color */
+}
+
+.footer .footer-left p,
+.footer .footer-center p {
+    color: #ccc; /* Light gray text color */
+}
+
+.footer .contact-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer .contact-info img {
+    width: 20px; /* Set image width */
+    margin-right: 10px; /* Spacing between icon and text */
+}
+
+.footer .social-icons a {
+    display: inline-block;
+    margin-right: 10px; /* Spacing between social icons */
+}
+
+.footer .social-icons img {
+    width: 30px; /* Set social icon width */
+}
+
+.footer .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    color: #ccc; /* Light gray text color */
+}
+
+
+body {
+    margin: 0; /* Remove default body margin */
+    padding: 20px; /* Add padding to create space around the agent cards */
+    background-color: #f0f0f0; /* Set background color */
+}
+
+/*agents report cards*/
+
+.agent-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Align agent cards with space between them */
+    max-width: 1200px; /* Set maximum width to prevent stretching on larger screens */
+    margin: 0 auto; /* Center the agent cards horizontally */
+}
+
+.agent-card {
+    width: calc(30% - 20px); /* Adjust width of agent cards */
+    margin-bottom: 20px; /* Add margin between agent cards */
+    padding: 20px; /* Add padding inside the agent cards */
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #f5f5f5; /* Light gray background */
+    overflow-y: auto;
+    overflow: hidden; /* Ensure content overflow is hidden */
+    word-wrap: break-word; /* Wrap long words if necessary */
+}
+.agent-card-content {
+    padding: 20px; /* Add padding to the content */
+    flex-grow: 1; /* Fill available space within the card */
+}
+
+.agent-card h2 {
+    margin-top: 0; /* Remove default margin */
+}
+
+.agent-info {
+    margin: 0 0 10px; /* Adjust margin as needed */
+}
+
+.view-items-btn {
+    background-color: #1E90FF; /* Dark Blue */
+    color: #fff; /* White */
+    border: none;
+    border-radius: 3px;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.view-items-btn:hover {
+    background-color: #0066CC; /* Darker Blue on hover */
+}
+
+.agent-items {
+    background-color: white; /* White */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    overflow-y: auto;
+    max-height: 400px; /* Limit max height */
+    width: 400px;
+}
+
+.item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.item:last-child {
+    border-bottom: none;
+}
+/*agent pie chart */
+
+.legend {
+    margin-top: 10px;
+}
+
+.legend span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.legend .collected {
+    background-color: darkblue;
+}
+
+.legend .not-collected {
+    background-color: red;
+}
+
+.chart-container {
+    flex-grow: 1; /* Allow the chart container to fill available space */
+    height:500px;
+}
+
+.pie-chart {
+    width: 100px; /* Adjust size of the pie chart */
+    height: 100px; /* Adjust size of the pie chart */
+    position: relative;
+    margin: auto;
+}
+.donut {
+    width: 100px; /* Adjust width of the donut chart */
+    height: 100px; /* Adjust height of the donut chart */
+    position: relative;
+    margin: auto;
+}
+
+.donut circle {
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+}

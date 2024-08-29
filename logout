@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<form method="POST">
+<link href="styleslugg.css" rel="stylesheet">
+<div class="logout">
+	<button type="button" name="logout" id="logout">LOG OUT</button>
+</div>
+</form>
+<?php
+session_start();
+
+if ($_POST['logout']){
+session_destroy();
+// Redirect the user to the login page or any other appropriate page
+header("Location: log.php");
+exit();
+}
+?>
+</html>
